@@ -1,0 +1,257 @@
+*{
+	margin:0;
+	padding:0; 
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:whitesmoke;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(245, 245, 245, 0.767);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+.sidenav a:hover {
+    color: #e6d703;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.sidenav .title{
+    margin-left: 8px;
+    font-size:16px;
+    font-weight: bold;
+}
+.sidenav .sidenav-content{
+    margin-left: 8px;
+    font-size:normal;
+    font-weight: normal;
+}
+
+.sidenav .sidenav-content .preco-input{
+    margin-left: 8px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.sidenav .sidenav-content .preco-input:first-child{
+    padding-right: 8px;
+    display: flex;
+}
+
+.sidenav .sidenav-content .Area-bruta-input{
+    margin-left: 8px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.sidenav .sidenav-content .Area-bruta-input:first-child{
+    padding-right: 8px;
+    display: flex;
+}
+
+.sidenav .sidenav-content .Area-util-input{
+    
+    margin-left: 8px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.sidenav .sidenav-content .Area-util-input:first-child{
+    padding-right: 8px;
+    display: flex;
+}
+
+.sidenav .Tipo-de-Casa-title{
+    font-weight: bold;
+}
+
+.sidenav .Tipologia-title{
+    font-weight: bold;
+}
+
+.sidenav .Casas-banho-title{
+    font-weight: bold;
+}
+
+.sidenav .Estado-title{
+    font-weight: bold;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.search-field-small{
+    width: 95%;
+    height: 40px;
+    margin-bottom: 5px; 
+    padding-left: 5px;
+}
+
+.choices-negocio-small{
+    width: 95%;
+    height: 40px;
+    margin-bottom: 5px; 
+    padding-left: 5px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 1px;
+  
+}
+#main main img{
+    margin-bottom: 10px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important; 
+    border:6px solid #f7f7f7;
+}
+
+nav {
+    display:flex;
+    color: white;
+    justify-content: space-between;
+    background-color: black;
+}
+nav .username-nav{
+    padding-left: 5px;
+}
+nav .navbar-start-wrap{
+    display:flex;
+    justify-content: flex-start;
+    color: white;
+    background-color: black;
+}
+
+
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #FFFFFF;
+    margin: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    padding-right:7px;
+    padding-top: 5px;
+    color: white;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+  
+
+nav a:focus {
+    outline: none !important;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #e6d703;
+}
+
+nav .end-wrap{
+    display:flex;
+    justify-content: flex-start;
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/*---------------------------------------------*/
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #e6d703;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+  color: #e6d703;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-login100-form-btn {
+  width: 95%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-login100-form-btn button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-top: 17px;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 62px;
+  background-color: #e6d703;
+  opacity:0.85;
+  border-radius: 3px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+
+.container-login100-form-btn button:hover {
+  background: #fdec02;
+}
